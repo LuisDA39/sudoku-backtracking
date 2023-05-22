@@ -102,7 +102,7 @@ int main() {
     if (resolverSudoku(grid) == true)
         imprimirMatriz(grid);
     else
-        cout << "No solution exists";
+        cout << "No existe solución :(";
 
     return 0;
 }
